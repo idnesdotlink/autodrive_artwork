@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": true
+      }
+    }]
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "@root": ".",
+        "@src": "./src",
+        "@scripts": "./scripts"
+      }
+    }]
+  ]
+}
