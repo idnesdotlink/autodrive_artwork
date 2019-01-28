@@ -1,0 +1,13 @@
+name: ic_launcher
+source: icon.svg
+output:
+  - size: 48,
+    directory: mipmap-mdpi
+  - size: 72,
+    directory: mipmap-hdpi
+  - size: 96,
+    directory: mipmap-xhdpi
+  - size: 144,
+    directory: mipmap-xxhdpi
+  - size: 192,
+    directory: mipmap-xxxhdpi
