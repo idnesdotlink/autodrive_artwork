@@ -1,6 +1,7 @@
-name: ic_launcher
-source: icon.svg
+name: ic_launcher 
+source: ic_launcher.svg
 output:
+  target:
   - size: 48,
     directory: mipmap-mdpi
   - size: 72,
